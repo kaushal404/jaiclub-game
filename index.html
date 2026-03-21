@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>JAI CLUB | Claim ₹500 Free Bonus & Deposit Offers</title>
-    <meta name="description" content="Register on JAI CLUB today and get an instant ₹500 free bonus. Claim huge deposit percentage bonuses and start winning with 100% accurate color predictions.">
-    <meta name="keywords" content="Jai Club, Jai Club 500 bonus, Jai Club deposit bonus, Jai Club login, color prediction hack">
+    <title>JAI CLUB Official | Get ₹500 Bonus & Daily Winning Hacks</title>
+    <meta name="description" content="Register on JAI CLUB today and claim an instant ₹500 free bonus. Use our 100% winning color prediction hacks, huge deposit bonuses, and start earning daily. Instant withdrawals.">
+    <meta name="keywords" content="Jai Club, Jai Club 500 bonus, Jai Club deposit bonus, Jai Club login, Jai Club official app, color prediction hack, earn money online game, Jai Club gift code, free recharge online game">
+    <meta name="author" content="Jai Club Official">
     <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="JAI CLUB | Claim ₹500 Free Bonus & 100% Winning Hacks">
+    <meta property="og:description" content="Register on the most trusted platform. Instantly get ₹500 bonus + Deposit offers. Safe and fast.">
+    <meta property="og:image" content="https://via.placeholder.com/600x315/0f0c29/00c6ff?text=JAI+CLUB+OFFICIAL+BONUS">
+    <meta property="og:type" content="website">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -28,58 +34,80 @@
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
         body { background-color: var(--bg-dark); color: var(--text-light); line-height: 1.8; overflow-x: hidden; }
 
+        /* Ticker */
         .ticker-wrap { background: linear-gradient(90deg, #f72585, #9d4edd); padding: 5px 0; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.2); }
-        .ticker { display: inline-block; white-space: nowrap; padding-right: 100%; box-sizing: content-box; animation: ticker 20s linear infinite; color: white; font-weight: bold; font-size: 14px; }
+        .ticker { display: inline-block; white-space: nowrap; padding-right: 100%; animation: ticker 25s linear infinite; color: white; font-weight: bold; font-size: 14px; }
         .ticker-item { padding: 0 2rem; }
         @keyframes ticker { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-100%, 0, 0); } }
 
+        /* Header */
         header { background: rgba(9, 9, 20, 0.95); padding: 15px 20px; position: sticky; top: 0; z-index: 100; text-align: center; box-shadow: 0 4px 20px rgba(157, 78, 221, 0.2); backdrop-filter: blur(10px); }
         .logo { font-size: 36px; font-weight: 800; background: linear-gradient(90deg, var(--primary-blue), var(--primary-pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 3px; }
 
         .container { max-width: 900px; margin: 0 auto; padding: 30px 20px; }
 
-        .hero { text-align: center; margin-bottom: 40px; }
-        .hero h1 { color: var(--text-white); font-size: 35px; line-height: 1.3; margin-bottom: 15px; }
+        /* Hero */
+        .hero { text-align: center; margin-bottom: 40px; animation: fadeInUp 1s; }
+        .hero h1 { color: var(--text-white); font-size: 38px; line-height: 1.3; margin-bottom: 10px; }
         .highlight { color: var(--accent-gold); }
 
-        /* Offer Banners Grid */
-        .offers-grid { display: grid; grid-template-columns: 1fr; gap: 20px; margin: 30px 0; }
-        @media(min-width: 768px) { .offers-grid { grid-template-columns: 1fr 1fr; } }
+        /* Stacked Offers Section (1 ke niche 1) */
+        .offers-list { display: flex; flex-direction: column; align-items: center; gap: 25px; margin: 30px 0; }
         
-        .offer-card { background: var(--bg-mid); border-radius: 15px; overflow: hidden; border: 2px solid var(--primary-pink); box-shadow: 0 10px 25px rgba(247, 37, 133, 0.3); transition: transform 0.3s; }
-        .offer-card:hover { transform: translateY(-10px); }
+        .offer-card { background: var(--bg-mid); border-radius: 15px; overflow: hidden; border: 2px solid var(--primary-pink); box-shadow: 0 10px 25px rgba(247, 37, 133, 0.3); transition: transform 0.3s ease; width: 100%; max-width: 600px; }
+        .offer-card:hover { transform: translateY(-5px); }
         
-        .offer-img { width: 100%; height: 200px; object-fit: cover; display: block; border-bottom: 2px solid rgba(255,255,255,0.1); }
+        .offer-img { width: 100%; height: 250px; object-fit: cover; display: block; border-bottom: 2px solid rgba(255,255,255,0.1); }
         
-        .offer-content { padding: 20px; text-align: center; }
-        .offer-content h3 { color: var(--accent-gold); font-size: 22px; margin-bottom: 10px; }
-        .offer-content p { color: #fff; font-size: 15px; font-weight: 600; }
+        .offer-content { padding: 25px; text-align: center; }
+        .offer-content h3 { color: var(--primary-blue); font-size: 24px; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        .offer-content p { color: #fff; font-size: 16px; font-weight: 600; }
 
-        .btn-group { display: flex; flex-direction: column; align-items: center; gap: 15px; margin: 30px 0; }
-        .btn { width: 100%; max-width: 350px; padding: 16px 20px; font-size: 18px; font-weight: 800; text-decoration: none; color: white; border-radius: 50px; text-transform: uppercase; text-align: center; box-shadow: 0 8px 25px rgba(0,0,0,0.4); transition: transform 0.3s; }
+        /* Buttons */
+        .btn-group { display: flex; flex-direction: column; align-items: center; gap: 15px; margin: 35px 0; }
+        .btn { width: 100%; max-width: 380px; padding: 18px 25px; font-size: 18px; font-weight: 800; text-decoration: none; color: white; border-radius: 50px; text-transform: uppercase; text-align: center; box-shadow: 0 8px 25px rgba(0,0,0,0.5); transition: all 0.3s; position: relative; overflow: hidden; }
         .btn:hover { transform: translateY(-5px); }
-        .btn-register { background: linear-gradient(45deg, var(--primary-pink), var(--primary-purple)); }
-        .btn-login { background: linear-gradient(45deg, var(--primary-blue), #0056b3); }
+        .btn-register { background: linear-gradient(45deg, var(--primary-pink), var(--primary-purple)); border: 2px solid transparent; }
+        .btn-register:hover { box-shadow: 0 10px 30px rgba(247, 37, 133, 0.6); }
+        .btn-login { background: linear-gradient(45deg, var(--primary-blue), #0056b3); border: 2px solid transparent; }
+        .btn-login:hover { box-shadow: 0 10px 30px rgba(0, 229, 255, 0.5); }
+        .btn-telegram { background: linear-gradient(45deg, #0088cc, #00c6ff); border: 2px solid transparent; width: auto; font-size: 16px; padding: 12px 20px; }
 
-        .content-box { background: var(--bg-mid); border-radius: 15px; padding: 25px; margin-bottom: 30px; border: 1px solid rgba(157, 78, 221, 0.3); }
-        .content-box h2 { color: var(--primary-blue); font-size: 24px; margin-bottom: 15px; }
-        .content-box ul { padding-left: 20px; list-style-type: none; }
-        .content-box ul li { margin-bottom: 10px; padding-left: 25px; position: relative; color: #ccc; }
-        .content-box ul li::before { content: '✅'; position: absolute; left: 0; }
+        /* Table of Contents */
+        .toc { background: rgba(255,255,255,0.03); border: 1px solid var(--primary-purple); border-radius: 10px; padding: 20px; margin-bottom: 30px; }
+        .toc h4 { color: var(--accent-gold); margin-bottom: 10px; font-size: 18px; }
+        .toc ul { list-style: none; padding-left: 10px; }
+        .toc ul li { margin-bottom: 8px; }
+        .toc ul li a { color: var(--primary-blue); text-decoration: none; font-size: 15px; }
+        .toc ul li a:hover { text-decoration: underline; color: var(--primary-pink); }
 
+        /* Content Sections */
+        .content-box { background: var(--bg-mid); border-radius: 15px; padding: 25px; margin-bottom: 30px; border: 1px solid rgba(157, 78, 221, 0.3); animation: fadeInUp 1s; }
+        .content-box h2 { color: var(--primary-blue); font-size: 26px; margin-bottom: 15px; border-left: 5px solid var(--primary-pink); padding-left: 15px; }
+        .content-box h3 { color: var(--text-white); font-size: 20px; margin: 20px 0 10px 0; }
+        .content-box p { margin-bottom: 15px; color: #ccc; font-size: 16px; }
+        .content-box ul, .content-box ol { padding-left: 20px; margin-bottom: 15px; color: #ccc; }
+        .content-box li { margin-bottom: 10px; position: relative; }
+        .content-box ul li::before { content: '✨'; position: absolute; left: -25px; }
+
+        /* Floating Contact Button */
         .float-btn { position: fixed; bottom: 30px; right: 30px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; text-align: center; line-height: 60px; font-size: 30px; box-shadow: 0 5px 20px rgba(37, 211, 102, 0.5); z-index: 1000; transition: transform 0.3s; }
         .float-btn:hover { transform: scale(1.1); color: white; }
 
-        footer { background: #030308; padding: 30px 20px; text-align: center; margin-top: 40px; font-size: 12px; color: #666; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        footer { background: #030308; padding: 30px 20px; text-align: center; margin-top: 40px; font-size: 12px; color: #666; border-top: 1px solid rgba(157, 78, 221, 0.1); }
+        .disclaimer { max-width: 800px; margin: 0 auto; line-height: 1.6; }
     </style>
 </head>
 <body>
 
     <div class="ticker-wrap">
         <div class="ticker">
-            <span class="ticker-item">🎉 Rahul claimed ₹500 Registration Bonus!</span>
-            <span class="ticker-item">🔥 Sneha got 100% Extra on First Deposit!</span>
-            <span class="ticker-item">💰 Amit won ₹12,000 using VIP Hack.</span>
+            <span class="ticker-item">🎉 New user rahul121 just claimed ₹500 Free Bonus!</span>
+            <span class="ticker-item">🔥 VIP Hack Channel gave a 100% winning color prediction just now!</span>
+            <span class="ticker-item">💰 Sneha withdrew ₹15,000 via UPI within 2 minutes!</span>
+            <span class="ticker-item">⚡ 100% Accurate Mods Available on Telegram!</span>
         </div>
     </div>
 
@@ -90,54 +118,147 @@
     <div class="container">
         
         <section class="hero">
-            <h1>Claim Your <span class="highlight">EXCLUSIVE BONUSES</span> Today!</h1>
-            <p>India's Most Trusted Color Prediction Game. Register now to unlock huge rewards!</p>
+            <h1>Official <span class="highlight">JAI CLUB Login</span> & Gift Code ₹500</h1>
+            <p style="font-size: 17px; color: #ddd; max-width: 700px; margin: 0 auto;">India's Most Trusted Color Prediction Game. Double your money daily with our exclusive 100% Winning Hacks!</p>
         </section>
 
-        <div class="offers-grid">
+        <div class="offers-list">
             
             <div class="offer-card">
-                <img src="https://images.unsplash.com/photo-1618044733300-9472054094ee?q=80&w=800&auto=format&fit=crop" alt="500 RS Free Bonus" class="offer-img">
+                <img src="https://images.unsplash.com/photo-1618044733300-9472054094ee?q=80&w=800&auto=format&fit=crop" alt="JAI CLUB ₹500 Free Bonus" class="offer-img">
                 <div class="offer-content">
                     <h3><i class="fas fa-gift"></i> ₹500 FREE BONUS</h3>
-                    <p>Register karte hi aapke wallet mein ₹500 turant add ho jayenge. Bina investment ke khelna shuru karein!</p>
+                    <p>Register karte hi aapke JAI CLUB wallet mein ₹500 turant add ho jayenge. Bina investment ke khelna shuru karein!</p>
                 </div>
             </div>
 
             <div class="offer-card">
-                <img src="https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=800&auto=format&fit=crop" alt="Deposit % Bonus" class="offer-img">
+                <img src="https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=800&auto=format&fit=crop" alt="JAI CLUB Deposit Bonus" class="offer-img">
                 <div class="offer-content">
                     <h3><i class="fas fa-percent"></i> FIRST DEPOSIT BONUS</h3>
-                    <p>Apne pehle deposit par payein EXTRA % Bonus! Jitna bada deposit, utna bada fayda. Don't miss out!</p>
+                    <p>Apne pehle deposit par payein humara Exclusive EXTRA % Bonus! Jitna bada deposit, utna bada fayda. Don't miss out!</p>
                 </div>
             </div>
 
         </div>
 
         <div class="btn-group">
-            <a href="#" class="btn btn-register"><i class="fas fa-user-plus"></i> REGISTER & GET ₹500</a>
-            <a href="#" class="btn btn-login"><i class="fas fa-sign-in-alt"></i> LOGIN ACCOUNT</a>
+            <a href="#" class="btn btn-register"><i class="fas fa-user-plus"></i> REGISTER & CLAIM ₹500</a>
+            <a href="#" class="btn btn-login"><i class="fas fa-sign-in-alt"></i> JAI CLUB LOGIN</a>
+            <a href="#" class="btn btn-telegram"><i class="fab fa-telegram-plane"></i> Join Telegram VIP Hack (100% Win)</a>
         </div>
 
-        <div class="content-box">
-            <h2><i class="fas fa-bolt"></i> JAI CLUB Offers Kaise Kaam Karte Hain?</h2>
+        <div class="toc">
+            <h4>📑 Table of Contents</h4>
             <ul>
-                <li><strong>Step 1:</strong> Upar diye gaye Register button par click karein aur apna account banayein.</li>
-                <li><strong>Step 2:</strong> Registration successful hote hi ₹500 aapke JAI CLUB wallet me dikhne lagenge.</li>
-                <li><strong>Step 3:</strong> Jab aap pehli baar paise add karenge (Deposit), toh system automatically aapko Extra % ka deposit bonus dega.</li>
-                <li><strong>Step 4:</strong> In bonuses ka use karke aap color prediction game khel sakte hain aur real cash jeet kar direct bank me nikal sakte hain.</li>
+                <li><a href="#what-is">What is JAI CLUB Game?</a></li>
+                <li><a href="#why-choose">Why Choose JAI CLUB Over Other Gaming Apps?</a></li>
+                <li><a href="#how-to-download">How to Download JAI CLUB App (Step-by-Step)</a></li>
+                <li><a href="#register-use">How to Register and Use the Gift Code</a></li>
+                <li><a href="#understanding-code">Understanding the Gift Code ₹500</a></li>
+                <li><a href="#use-wisely">How to Use JAI CLUB Free Recharge Wisely?</a></li>
+                <li><a href="#features">Features of JAI CLUB Game</a></li>
+                <li><a href="#withdraw">How to Withdraw Winnings?</a></li>
             </ul>
+        </div>
+
+        <div id="what-is" class="content-section content-box">
+            <h2>What is JAI CLUB Game?</h2>
+            <p><strong>JAI CLUB Game</strong> is India's most modern online gaming application designed for players who enjoy both entertainment and real rewards. Unlike typical casual games, the JAI CLUB App allows users to participate in interactive games (like color prediction) that can be played anytime, anywhere डायरेक्टली.</p>
+            <p>The platform focuses on:</p>
+            <ul>
+                <li><strong>Easy access:</strong> Simple JAI CLUB Login with just your mobile number.</li>
+                <li><strong>Free rewards:</strong> A ₹500 gift code for new users on registration.</li>
+                <li><strong>Safe transactions:</strong> Play, recharge, and withdraw with confidence.</li>
+                <li><strong>Engaging content:</strong> Variety of games to keep players hooked, with exclusive hack mods available.</li>
+            </ul>
+        </div>
+
+        <div id="why-choose" class="content-section content-box">
+            <h2>Why Choose JAI CLUB Over Other Gaming Apps?</h2>
+            <p>While there are many gaming apps out there, JAI CLUB App stands apart because of its player-first approach. Here’s why it is the most trusted platform:</p>
+            <ul>
+                <li><strong>Generous Rewards:</strong> The ₹500 JAI CLUB Gift Code is a massive advantage for beginners, letting you try the app without spending your own money.</li>
+                <li><strong>Smooth Gameplay:</strong> The lightweight JAI CLUB Download APK ensures lag-free gaming even on entry-level devices with 3G networks.</li>
+                <li><strong>Secure System:</strong> The platform takes safety seriously, offering protected logins, 128-bit encryption, and safe withdrawals.</li>
+                <li><strong>Daily Benefits:</strong> With JAI CLUB Free Recharge and ongoing promotional offers, you get more than just a one-time gift code.</li>
+            </ul>
+        </div>
+
+        <div id="how-to-download" class="content-section content-box">
+            <h2>How to Download JAI CLUB App (Step-by-Step)?</h2>
+            <p>Since the App provides real-cash earning opportunities, it is not available on the Google Play Store. You’ll need to download it through our official website securely. Here’s how:</p>
+            <ol>
+                <li>Click the <strong>CLAIM ₹500</strong> button above to visit the official registration link.</li>
+                <li>After registration, you will see a Download APK button on your dashboard.</li>
+                <li>Enable installation from “Unknown Sources” in your phone settings if prompted.</li>
+                <li>Download and install the JAI CLUB APK file.</li>
+                <li>Open the App and proceed to login.</li>
+            </ol>
+        </div>
+
+        <div id="register-use" class="content-section content-box">
+            <h2>How to Register and Use the Gift Code?</h2>
+            <h3>Step 1: JAI CLUB Register</h3>
+            <p>Click on the official link provided here and click Register. Enter your mobile number, create a strong password, and click Submit. Your ₹500 gift code bonus will be automatically added to your wallet!</p>
+            <h3>Step 2: JAI CLUB Game Login</h3>
+            <p>Return to the app’s login page. Enter your registered mobile number and password. Click JAI CLUB Login. Your ₹500 bonus balance will appear in your wallet, ready for use in games.</p>
+        </div>
+
+        <div id="understanding-code" class="content-section content-box">
+            <h2>Understanding the JAI CLUB Gift Code ₹500</h2>
+            <p>The JAI CLUB Gift Code is a dynamic promotional offer provided strictly to new players who register through this official landing page. It is designed to encourage users to try the platform without hesitation.</p>
+            <p>Here’s why it is valuable:</p>
+            <ul>
+                <li><strong>Free Start:</strong> You can begin playing without any deposit.</li>
+                <li><strong>Risk-Free Experience:</strong> Try different color prediction strategies before adding funds.</li>
+                <li><strong>Increased Chances:</strong> Use the ₹500 bonus to participate in more rounds with our Telegram hacks.</li>
+            </ul>
+        </div>
+
+        <div id="use-wisely" class="content-section content-box">
+            <h2>How to Use JAI CLUB Free Recharge Wisely?</h2>
+            <p>A common mistake beginners make is spending their Free Recharge or ₹500 bonus too quickly. To maximize your winnings, we recommend:</p>
+            <ul>
+                <li><strong>Follow the VIP Channel:</strong> Use our 100% accurate MOD hacks from Telegram.</li>
+                <li><strong>Spread the Bonus:</strong> Don’t spend the entire ₹500 in one game; distribute it across multiple attempts.</li>
+                <li><strong>Practice First:</strong> Use small amounts (₹10 or ₹50) to learn the gameplay mechanics before betting higher.</li>
+            </ul>
+        </div>
+
+        <div id="features" class="content-section content-box">
+            <h2>Features of JAI CLUB Game</h2>
+            <p>The JAI CLUB App isn’t just about the bonus; it has features that make it a leader in the gaming industry:</p>
+            <ul>
+                <li><strong>User-Friendly Interface:</strong> Simple design ensures quick navigation, perfect for beginners.</li>
+                <li><strong>Multiple Games:</strong> A variety of games, ensuring you’ll never get bored.</li>
+                <li><strong>Instant Withdrawals:</strong> Cash out your winnings easily. Money is transferred to your bank/UPI within minutes, 24/7.</li>
+                <li><strong>Verified Fairness:</strong> Advanced algorithms ensure every round of the game is 100% fair and secure.</li>
+            </ul>
+        </div>
+
+        <div id="withdraw" class="content-section content-box">
+            <h2>How to Withdraw Winnings from JAI CLUB App?</h2>
+            <p>One of the best aspects of the Game is its simple and lightning-fast withdrawal process:</p>
+            <ol>
+                <li>Open the JAI CLUB App.</li>
+                <li>Go to your account wallet.</li>
+                <li>Select the Withdrawal option.</li>
+                <li>Enter your bank or UPI details.</li>
+                <li>Confirm withdrawal request. The funds hit your account instantly!</li>
+            </ol>
         </div>
 
     </div>
 
-    <a href="https://wa.me/919058880734" target="_blank" class="float-btn" title="Chat on WhatsApp">
+    <a href="https://wa.me/919058880734" target="_blank" class="float-btn" title="Contact Support on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <footer>
-        <p>Disclaimer: Playing games involves financial risk. Play responsibly. Only for 18+ users.</p>
-        <p>&copy; 2026 JAI CLUB OFFICIAL.</p>
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This page is a promotional landing page. We do not directly operate, manage, or provide gaming services. Playing money-based games online involves financial risk and can be addictive—please play responsibly and at your own risk. Only for 18+ users. &copy; 2026 JAI CLUB OFFICIAL.</p>
+        </div>
     </footer>
 
 </body>
